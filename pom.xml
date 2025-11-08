@@ -23,7 +23,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://sonar:9000/</sonar.host.url>
-		<sonar.login>sonar</sonar.login>
+		<sonar.login>sqa_5f250f7267c3b8612b9b692a597bc0c57a933774</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -95,13 +95,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>BrunoTech Releases Nexus Repository</name>
-	      <url>http://nexus:8081/repository/mtnpro-release/</url>
+	      <url>http://localhost:8081/repository/mtnpro-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>BrunoTech Academy Snapshot Nexus Repository </name>
-	      <url>http://nexus:8081/repository/mtnpro-snapshot/</url>
+	      <url>http://localhos:8081/repository/mtnpro-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
