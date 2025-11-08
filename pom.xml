@@ -95,13 +95,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>BrunoTech Releases Nexus Repository</name>
-	      <url>http://localhost:8081/repository/mtnpro-release/</url>
+	      <url>http://localhost:8009/repository/brunopro-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>BrunoTech Academy Snapshot Nexus Repository </name>
-	      <url>http://localhos:8081/repository/mtnpro-snapshot/</url>
+	      <url>http://localhost:8009/repository/brunopro-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
